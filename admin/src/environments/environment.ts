@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
 
-  baseUrl: '',
-  imageUrl: '',
+  baseUrl: 'http://localhost:9000/api',
+  imageUrl: 'http://localhost:9000/api',
   productUrl: '',
   pluginUrl: ''
 };
