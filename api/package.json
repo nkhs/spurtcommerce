@@ -44,6 +44,7 @@
     "array-to-tree": "^3.3.0",
     "aws-sdk": "^2.391.0",
     "bcrypt": "3.0.1",
+    "bcryptjs": "^2.4.3",
     "chalk": "^2.4.1",
     "class-transformer-validator": "^0.7.1",
     "class-validator": "^0.8.1",
@@ -121,7 +122,9 @@
       "json"
     ],
     "testEnvironment": "node",
-    "setupTestFrameworkScriptFile": "./test/unit/lib/setup.ts"
+    "setupFilesAfterEnv": [
+      "./test/unit/lib/setup.ts"
+    ]
   },
   "license": "MIT",
   "devDependencies": {

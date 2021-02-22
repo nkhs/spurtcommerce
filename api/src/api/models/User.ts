@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import { Exclude } from 'class-transformer';
 import { IsNotEmpty, IsEmail } from 'class-validator';
 import {

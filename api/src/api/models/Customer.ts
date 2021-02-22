@@ -8,7 +8,7 @@
 
 import {Column, Entity, BeforeInsert, BeforeUpdate, PrimaryGeneratedColumn} from 'typeorm';
 import {BaseModel} from './BaseModel';
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import moment = require('moment/moment');
 import {Exclude} from 'class-transformer';
 
